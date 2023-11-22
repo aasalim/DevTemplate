@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Main compilable source location. Must be present.
+Directory for main compilable source location. Must be present.
 
 ## Notes
 
