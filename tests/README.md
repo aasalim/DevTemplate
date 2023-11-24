@@ -8,7 +8,7 @@ Directory for tests.
 
 This directory is not required.
 
-The `tests/` directory is reserved for source files related to (non-unit) tests for the project.
+The `tests/` directory is reserved for source files related to tests for the project.
 
 The structure and layout of this directory is not prescribed by this document.
 
