@@ -45,3 +45,6 @@ _deps
 *.out
 *.app
 [Bb][Uu][Ii][Ll][Dd]
+
+#-------------------------VSCode
+.vscode/
