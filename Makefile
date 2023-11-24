@@ -28,7 +28,7 @@ test: build
 # Run execuatable, depends on build
 .PHONY: run
 run: build
-	./build/examples/main/mainExampleProject
+	./$(BUILD_DIR)/$(BUILD_TYPE)/examples/main/mainExampleProject
 
 # Run code coverage 
 .PHONY: coverage

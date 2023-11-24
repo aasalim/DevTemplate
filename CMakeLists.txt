@@ -9,6 +9,9 @@ endif()
 # Verbose makefile
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
+# Generate compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Add the 'cmake' directory to the CMAKE_MODULE_PATH
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 

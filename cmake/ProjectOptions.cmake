@@ -173,7 +173,7 @@ macro(project_local_options)
     # Enable Coverage
     if(project_ENABLE_COVERAGE)
         include(CodeCoverage)
-        set(GCOVR_ADDITIONAL_ARGS "--decisions" "-s")
+        set(GCOVR_ADDITIONAL_ARGS "--decisions" "-s" "--keep")
         target_compile_options(project_options INTERFACE -O0 )
         target_link_libraries(project_options INTERFACE)
         append_coverage_compiler_flags()

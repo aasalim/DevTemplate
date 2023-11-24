@@ -10,4 +10,4 @@ setup_target_for_coverage_gcovr_html(
     EXECUTABLE ctest
     DEPENDENCIES libUtility
     BASE_DIRECTORY "${CMAKE_SOURCE_DIR}"                       
-    EXCLUDE "tests/")
+    EXCLUDE "tests/" "examples/")
